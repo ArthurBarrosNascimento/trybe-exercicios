@@ -1,0 +1,39 @@
+body {
+  font-size: 16px;
+  font-style: italic;
+  line-height: normal;
+  text-align: center;
+}
+
+#title {
+  font-family: sans-serif;
+  font-size: 65px;
+  color: orange;
+  text-decoration: underline overline double;
+}
+
+#list {
+  color: wheat;
+  background-color: blue;
+}
+
+#paragraph {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+#yellow {
+  color: yellow;
+}
+
+#red {
+  color: red;
+}
+
+#brown {
+  color: brown;
+}
+
+.change-background {
+  background-color: darkseagreen;
+}
