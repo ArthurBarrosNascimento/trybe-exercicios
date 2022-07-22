@@ -1,0 +1,45 @@
+li {
+  font-size: 20px;
+}
+
+li em {
+  font-weight: 100;
+}
+
+ol li {
+  background-color: yellow;
+}
+
+li:first-child {
+  text-transform: uppercase;
+}
+
+li:nth-child(2n) {
+  color: green;
+}
+
+li:nth-child(3n) {
+  text-transform: uppercase;
+}
+
+li:nth-child(4n) {
+  color: green;
+}
+
+li:nth-child(5n) {
+  text-transform: uppercase;
+}
+
+h1 em {
+  color: red;
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+h3 {
+  color: red;
+}
+
+h3 + ul li:nth-child(-1n+3){
+  color: blue;
+}

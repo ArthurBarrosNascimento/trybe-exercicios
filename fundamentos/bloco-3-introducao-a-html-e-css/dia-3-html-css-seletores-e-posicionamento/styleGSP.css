@@ -1,0 +1,15 @@
+.houver-color {
+  background-color: blue;
+  transition: 2s;
+  color: aliceblue;
+  list-style: none
+}
+
+.houver-color:hover {
+  background-color: red;
+  transition: 2s;
+}
+
+.center-text {
+  text-align: center;
+}
